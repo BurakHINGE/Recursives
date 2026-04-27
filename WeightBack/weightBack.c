@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 double calculateWeightBackR(int, int);
-double calculateWeightBackI(int, int);
 
 int main() {
 
@@ -11,7 +10,6 @@ int main() {
     scanf("%d %d", &row, &col);
 
     printf("%f\n", calculateWeightBackR(row, col));
-    printf("%f\n", calculateWeightBackI(row, col));
 
 }
 
@@ -38,28 +36,4 @@ double calculateWeightBackR(int row, int col) {
     }
 
     return from_left + from_right;
-}
-
-double calculateWeightBackI(int row, int col) {
-    if (row == 0) return 0.0; 
-
-    double weights[31][31] = {0.0};
-    
-    weights[0][0] = 80.0;
-
-    for (int r = 1; r <= row; r++) {
-        for (int c = 0; c <= r; c++) {
-            if (c > 0) {
-                weights[r][c] += weights[r-1][c-1] / 2.0;
-            }
-            if (c < r) {
-                weights[r][c] += weights[r-1][c] / 2.0;
-            }
-            
-            if (r < row) {
-                weights[r][c] += 80.0;
-            }
-        }
-    }
-    return weights[row][col];
 }
