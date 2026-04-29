@@ -2,14 +2,14 @@
 
 ![C](https://img.shields.io/badge/C-Programming-blue) ![MIT License](https://img.shields.io/badge/License-MIT-green)
 
-⸻
+---
 
 📌 Sürüm Bilgisi | Version Info
 
 ● Current Version: 1.0.0
 ● Geçerli Sürüm: 1.0.0
 
-⸻
+---
 
 📂 Contents
 
@@ -21,7 +21,7 @@
 | 4 | Power Calculation (Recursive) | [powerCalculator](./powerCalculator) | [power_calculator.c](./powerCalculator/power_calculator.c) |
 
 
-⸻
+---
 
 🇬🇧 English
 
@@ -35,7 +35,7 @@ Instead of a single large project, it includes multiple independent examples. Ea
 	•	📂 Independent mini-programs
 	•	⚙️ Easy to compile and run
 
-⸻
+---
 
 🚀 How to Run
 
@@ -46,7 +46,7 @@ gcc filename.c -o compiledname
 ./compiledname
 
 
-⸻
+---
 
 🇹🇷 Türkçe
 
@@ -60,7 +60,7 @@ Tek bir büyük proje yerine, her biri farklı mantıkları gösteren bağımsı
 	•	📂 Bağımsız mini programlar
 	•	⚙️ Kolay derleme ve çalıştırma
 
-⸻
+---
 
 🚀 Nasıl Çalıştırılır
 
@@ -71,7 +71,7 @@ gcc dosya_adi.c -o compiledname
 ./compiledname
 
 
-⸻
+---
 
 ## 📌 Version History / Sürüm Geçmişi
 
@@ -79,7 +79,7 @@ gcc dosya_adi.c -o compiledname
 |--------:|------------|-------------|
 | v1.0.0  | 2026-04-29 | Initial release |
 
-⸻
+---
 
 ## 📄 License / Lisans
 
