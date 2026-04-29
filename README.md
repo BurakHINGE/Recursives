@@ -30,6 +30,7 @@ This repository contains small C programs focused on recursion.
 Instead of a single large project, it includes multiple independent examples. Each file demonstrates a different recursive logic or problem.
 
 ✨ Features
+
 	•	🔁 Multiple recursive examples
 	•	🧠 Focus on algorithmic thinking
 	•	📂 Independent mini-programs
@@ -55,6 +56,7 @@ Bu repo, C dilinde recursion (özyineleme) kullanımını gösteren küçük pro
 Tek bir büyük proje yerine, her biri farklı mantıkları gösteren bağımsız örnekler içerir.
 
 ✨ Özellikler
+
 	•	🔁 Birden fazla recursive örnek
 	•	🧠 Algoritmik düşünme odaklı
 	•	📂 Bağımsız mini programlar
