@@ -15,10 +15,10 @@
 
 | # | Description | Folder | Source Code |
 |---|------------|--------|-------------|
-| 1 | Sierpinski Gasket (Recursive Fractal) | [SierpinskiGasket](./SierpinskiGasket) | [sierpinskiGasket.c](./SierpinskiGasket/sierpinskiGasket.c) |
-| 2 | Sum of Digits (Recursive) | [SumOfDigits](./SumOfDigits) | [sum_of_digits.c](./SumOfDigits/sum_of_digits.c) |
-| 3 | Weight Backtracking / Recursion | [WeightBack](./WeightBack) | [weightBack.c](./WeightBack/weightBack.c) |
-| 4 | Power Calculation (Recursive) | [powerCalculator](./powerCalculator) | [power_calculator.c](./powerCalculator/power_calculator.c) |
+| 1 | Sierpinski Gasket | [SierpinskiGasket](./SierpinskiGasket) | [sierpinskiGasket.c](./SierpinskiGasket/sierpinskiGasket.c) |
+| 2 | Sum of Digits | [SumOfDigits](./SumOfDigits) | [sum_of_digits.c](./SumOfDigits/sum_of_digits.c) |
+| 3 | Weight Backtracking | [WeightBack](./WeightBack) | [weightBack.c](./WeightBack/weightBack.c) |
+| 4 | Power Calculation | [powerCalculator](./powerCalculator) | [power_calculator.c](./powerCalculator/power_calculator.c) |
 
 
 ---
