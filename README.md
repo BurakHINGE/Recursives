@@ -6,8 +6,8 @@
 
 📌 Sürüm Bilgisi | Version Info
 
-● Current Version: 1.0.1
-● Geçerli Sürüm: 1.0.1
+● Current Version: 1.1.0
+● Geçerli Sürüm: 1.1.0
 
 ---
 
@@ -79,6 +79,7 @@ gcc dosya_adi.c -o compiledname
 
 | Version | Date       | Description |
 |--------:|------------|-------------|
+| v1.1.0  | 2026-07-13 | Added negative exponent support and undefined condition handling |
 | v1.0.1  | 2026-07-12 | Check zero condition for power in power calculator | 
 | v1.0.0  | 2026-04-29 | Initial release |
 
