@@ -2,6 +2,7 @@
 
 long calcPower(int, int);
 
+
 int main() {
 
     int number, power;
@@ -11,11 +12,20 @@ int main() {
     printf("Enter the power: \n");
     scanf("%d", &power);
 
+
     if (power == 0) {
         printf("%d power %d = 1\n", number, power);
     }
-    else {
+    else if (power > 0) {
         printf("%d power %d = %ld\n", number, power, calcPower(number, power));
+    }
+    else if (power < 0) {
+        if (number == 0) {
+            printf("Base cannot be 0 when the exponent is negative.");
+        }
+        else {
+            printf("%d power %d = %f\n", number, power, 1.0 / calcPower(number, -power));
+        }
     }
 
     return 0;
