@@ -11,7 +11,12 @@ int main() {
     printf("Enter the power: \n");
     scanf("%d", &power);
 
-    printf("%d power %d = %ld\n", number, power, calcPower(number, power));
+    if (power == 0) {
+        printf("%d power %d = 1\n", number, power);
+    }
+    else {
+        printf("%d power %d = %ld\n", number, power, calcPower(number, power));
+    }
 
     return 0;
 }
