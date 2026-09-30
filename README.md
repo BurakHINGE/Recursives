@@ -6,8 +6,8 @@
 
 📌 Sürüm Bilgisi | Version Info
 
-● Current Version: 1.1.0
-● Geçerli Sürüm: 1.1.0
+● Current Version: 1.2.0
+● Geçerli Sürüm: 1.2.0
 
 ---
 
@@ -19,6 +19,7 @@
 | 2 | Sum of Digits | [SumOfDigits](./SumOfDigits) | [sum_of_digits.c](./SumOfDigits/sum_of_digits.c) |
 | 3 | Weight Backtracking | [WeightBack](./WeightBack) | [weightBack.c](./WeightBack/weightBack.c) |
 | 4 | Power Calculation | [powerCalculator](./powerCalculator) | [power_calculator.c](./powerCalculator/power_calculator.c) |
+| 5 | Eight Queen Problem | [8-QueenProblem](./8-QueenProblem/) | [8_queen_problem.c](./8-QueenProblem/8_queen_problem.c) |
 
 
 ---
@@ -79,6 +80,7 @@ gcc dosya_adi.c -o compiledname
 
 | Version | Date       | Description |
 |--------:|------------|-------------|
+| v1.2.0  | 2026-09-30 | Added 8 Queen Problem |
 | v1.1.0  | 2026-07-12 | Added negative exponent support and undefined condition handling |
 | v1.0.1  | 2026-07-11 | Check zero condition for power in power calculator | 
 | v1.0.0  | 2026-04-29 | Initial release |
