@@ -15,14 +15,29 @@ int main() {
     int *table = (int*)(malloc(N * sizeof(int)));
 
     if (placeQueens(table, 0, N)) {
+
+        printf("\n1D Array View:\n");
         for (int i = 0; i < N; i++) {
             printf("%d ", *(table + i));
         }
+        printf("\n\n");
+
+        printf("2D Table View:\n");
+        for (int row = 0; row < N; row++) {
+            for (int col = 0; col < N; col++) {
+                if (table[col] == row) {
+                    printf("Q ");
+                } else {
+                    printf(". ");
+                }
+            }
+            printf("\n");
+        }
     }
     else {
-        printf("Çözüm bulunamadı!");
+        printf("Cozum bulunamadi!\n");
     }
-    
+
     printf("\n");
     free(table);
 
